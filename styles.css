@@ -1,0 +1,119 @@
+body {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.container {
+    width: 570px;
+    margin: 0 auto;
+}
+
+
+.accent-text {
+    color: #99D930;
+    font-weight: 900;
+    display: block;
+}
+
+.accent-text,
+.name,
+time {
+    color: #99D930;
+    font-weight: 900;
+}
+
+h1 .accent-text {
+    font-size: 80px;
+}
+
+h2 .accent-text {
+    font-size: 60px;
+}
+
+h1,
+h2 {
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 60px;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 42px;
+    padding: 25px 0;
+    margin-top: 0;
+    border-top: 1px solid #c4c4c4;
+    border-bottom: 1px solid #c4c4c4;
+    ;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+a {
+    color: #99D930;
+    font-weight: 900;
+}
+
+a:hover,
+a:focus {
+    color: #131313;
+}
+
+.small-text {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+
+section {
+    width: 100%;
+    margin: 0;
+    padding: 100px 0;
+}
+
+.section-one {
+    background-color: #D7D7D7;
+}
+
+.section-two {
+    background-color: #fff;
+}
+
+.section-three {
+    background-color: #EAF9FF;
+}
+
+.dark-background {
+    background-color: #252525;
+    color: #EAF9FF;
+}
+
+.dark-background .work-link:hover,
+.dark-background .work-link:focus {
+    background: #fff;
+    color: #252525;
+}
+
+.work-link {
+    color: #252525;
+    background-color: #99D930;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 25px;
+    text-decoration: none;
+}
+
+.work-link:hover,
+.work-link:focus {
+    background: #252525;
+    color: #fff;
+}
